@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>万可官方网站</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <div class="header-inner">
+        <a class="brand" href="#top" aria-label="万可首页">
+          <img src="assets/logo.jpg" alt="万可 logo" />
+        </a>
+        <nav class="desktop-nav" aria-label="主导航">
+          <button class="nav-item" data-menu="products">产品中心</button>
+          <button class="nav-item" data-menu="business">创业机会</button>
+          <button class="nav-item" data-menu="belief">万可信念</button>
+          <button class="nav-item" data-menu="responsibility">社会责任</button>
+          <button class="nav-item" data-menu="about">认识万可</button>
+        </nav>
+        <div class="header-actions">
+          <button class="icon-button" data-open-search aria-label="搜索">⌕</button>
+          <button class="outline-button" data-open-service>在线客服</button>
+          <button class="menu-button" data-open-menu aria-label="打开菜单">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+      <div class="mega-menu" data-mega>
+        <div class="mega-panel" data-panel="products">
+          <div>
+            <p class="eyebrow">产品中心</p>
+            <h3>营养、家居与个人护理解决方案</h3>
+          </div>
+          <a href="#products">营养保健</a>
+          <a href="#products">美妆护肤</a>
+          <a href="#products">家居净化</a>
+          <a href="#products">会员热卖</a>
+        </div>
+        <div class="mega-panel" data-panel="business">
+          <div>
+            <p class="eyebrow">创业机会</p>
+            <h3>数字化工具支持每一位伙伴成长</h3>
+          </div>
+          <a href="#business">成为伙伴</a>
+          <a href="#business">培训体系</a>
+          <a href="#business">业务支持</a>
+          <a href="#business">门店体验</a>
+        </div>
+        <div class="mega-panel" data-panel="belief">
+          <div>
+            <p class="eyebrow">万可信念</p>
+            <h3>健康生活、稳健经营、长期价值</h3>
+          </div>
+          <a href="#belief">品牌理念</a>
+          <a href="#belief">品质承诺</a>
+          <a href="#belief">研发标准</a>
+        </div>
+        <div class="mega-panel" data-panel="responsibility">
+          <div>
+            <p class="eyebrow">社会责任</p>
+            <h3>把可持续行动落在每一天</h3>
+          </div>
+          <a href="#responsibility">公益项目</a>
+          <a href="#responsibility">绿色运营</a>
+          <a href="#responsibility">社区共建</a>
+        </div>
+        <div class="mega-panel" data-panel="about">
+          <div>
+            <p class="eyebrow">认识万可</p>
+            <h3>了解公司动态、发展历程与服务网络</h3>
+          </div>
+          <a href="#news">新闻中心</a>
+          <a href="#about">公司介绍</a>
+          <a href="#about">联系我们</a>
+        </div>
+      </div>
+    </header>
+
+    <aside class="mobile-drawer" data-drawer aria-hidden="true">
+      <button class="close-button" data-close-menu aria-label="关闭菜单">×</button>
+      <a href="#products">产品中心</a>
+      <a href="#business">创业机会</a>
+      <a href="#belief">万可信念</a>
+      <a href="#responsibility">社会责任</a>
+      <a href="#about">认识万可</a>
+      <button class="outline-button" data-open-search>搜索网站</button>
+    </aside>
+
+    <main>
+      <section class="hero" aria-label="焦点内容">
+        <div class="hero-track" data-hero-track>
+          <article class="hero-slide active">
+            <div class="hero-copy">
+              <p class="eyebrow">全新健康生活平台</p>
+              <h1>让高品质日常，成为每个家庭的习惯</h1>
+              <p>万可以科学营养、安心家居和数字化服务，陪伴用户建立更轻松的健康生活方式。</p>
+              <a class="primary-button" href="#products">探索产品</a>
+            </div>
+          </article>
+          <article class="hero-slide">
+            <div class="hero-copy">
+              <p class="eyebrow">伙伴成长计划</p>
+              <h1>把热爱的事业，经营得更有章法</h1>
+              <p>从培训、工具到服务网络，万可为创业伙伴提供清晰、稳定、可持续的支持。</p>
+              <a class="primary-button" href="#business">了解机会</a>
+            </div>
+          </article>
+          <article class="hero-slide">
+            <div class="hero-copy">
+              <p class="eyebrow">绿色责任</p>
+              <h1>从产品到社区，践行更温和的未来</h1>
+              <p>持续优化包装、供应链和公益项目，把责任做成看得见的行动。</p>
+              <a class="primary-button" href="#responsibility">查看项目</a>
+            </div>
+          </article>
+        </div>
+        <div class="hero-controls">
+          <button data-prev aria-label="上一张">‹</button>
+          <div class="hero-dots" data-dots></div>
+          <button data-next aria-label="下一张">›</button>
+        </div>
+      </section>
+
+      <section class="section" id="news">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">新闻中心</p>
+            <h2>最新动态</h2>
+          </div>
+          <div class="tabs" data-news-tabs>
+            <button class="active" data-category="all">全部</button>
+            <button data-category="brand">品牌</button>
+            <button data-category="public">公益</button>
+            <button data-category="product">产品</button>
+          </div>
+        </div>
+        <div class="news-grid" data-news-list></div>
+      </section>
+
+      <section class="section product-section" id="products">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">产品中心</p>
+            <h2>精选产品</h2>
+          </div>
+          <div class="tabs" data-product-tabs>
+            <button class="active" data-filter="all">全部</button>
+            <button data-filter="nutrition">营养</button>
+            <button data-filter="beauty">美护</button>
+            <button data-filter="home">家居</button>
+          </div>
+        </div>
+        <div class="product-grid" data-products></div>
+      </section>
+
+      <section class="split-section" id="business">
+        <div class="split-media">
+          <div class="metric-card"><strong>24h</strong><span>数字化服务响应</span></div>
+          <div class="metric-card"><strong>100+</strong><span>伙伴课程模块</span></div>
+        </div>
+        <div class="split-copy">
+          <p class="eyebrow">创业机会</p>
+          <h2>让每一次推荐，都建立在专业服务上</h2>
+          <p>万可提供产品知识、客户管理、线上活动和线下体验的完整工具，帮助伙伴更稳健地开展业务。</p>
+          <button class="primary-button" data-open-service>咨询加入</button>
+        </div>
+      </section>
+
+      <section class="section belief-band" id="belief">
+        <p class="eyebrow">万可信念</p>
+        <h2>以品质为根，以信任为桥</h2>
+        <div class="belief-grid">
+          <article><h3>严选原料</h3><p>坚持可追溯供应链与高标准检测。</p></article>
+          <article><h3>专业服务</h3><p>以健康顾问和客服体系承接真实需求。</p></article>
+          <article><h3>长期主义</h3><p>用稳健经营守护消费者与伙伴关系。</p></article>
+        </div>
+      </section>
+
+      <section class="section" id="responsibility">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">社会责任</p>
+            <h2>可持续行动</h2>
+          </div>
+        </div>
+        <div class="responsibility-grid">
+          <article><span>01</span><h3>绿色包装</h3><p>推进轻量化包装和可回收材料应用。</p></article>
+          <article><span>02</span><h3>健康课堂</h3><p>面向社区开展营养与家庭健康公益课程。</p></article>
+          <article><span>03</span><h3>公益合作</h3><p>与公益组织共同关注儿童成长和家庭福祉。</p></article>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div>
+          <p class="eyebrow">认识万可</p>
+          <h2>一家面向家庭健康消费的现代服务公司</h2>
+          <p>万可专注健康产品、家居护理和伙伴服务平台建设，用可信赖的产品和灵活的服务网络连接更多家庭。</p>
+        </div>
+        <div class="accordion" data-accordion>
+          <button>如何购买万可产品？<span>+</span></button>
+          <div>可通过官网咨询、授权伙伴或线下服务点了解产品并完成购买。</div>
+          <button>是否提供售后服务？<span>+</span></button>
+          <div>提供产品咨询、订单协助、退换货指引和会员服务支持。</div>
+          <button>如何成为创业伙伴？<span>+</span></button>
+          <div>提交咨询后，会有专属顾问介绍资质要求、培训安排和业务工具。</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div>
+        <img src="assets/logo.jpg" alt="万可 logo" />
+        <p>万可官方网站示范版</p>
+      </div>
+      <nav>
+        <a href="#products">产品中心</a>
+        <a href="#business">创业机会</a>
+        <a href="#news">新闻中心</a>
+        <a href="#about">联系我们</a>
+      </nav>
+      <button class="back-top" data-back-top>返回顶部</button>
+    </footer>
+
+    <div class="search-modal" data-search aria-hidden="true">
+      <div class="modal-card">
+        <button class="close-button" data-close-search aria-label="关闭搜索">×</button>
+        <h2>搜索万可</h2>
+        <input type="search" placeholder="输入产品、新闻或服务关键词" data-search-input />
+        <div class="search-results" data-search-results></div>
+      </div>
+    </div>
+
+    <div class="service-panel" data-service aria-hidden="true">
+      <button class="close-button" data-close-service aria-label="关闭客服">×</button>
+      <h3>在线客服</h3>
+      <p>留下需求，我们会尽快联系你。</p>
+      <input placeholder="姓名" />
+      <input placeholder="手机号" />
+      <select>
+        <option>产品咨询</option>
+        <option>创业加入</option>
+        <option>售后服务</option>
+      </select>
+      <button class="primary-button" data-submit-service>提交咨询</button>
+      <small data-service-message></small>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
